@@ -21,7 +21,7 @@ class HomePage extends StatelessWidget {
         ),
       );
     }
-    if (size.width < 1500 || size.height < 800) {
+    if (size.width < 1000 || size.height < 500) {
       return Scaffold(
         body: Center(
           child: Text("Chưa có responsize đâu bà"),
