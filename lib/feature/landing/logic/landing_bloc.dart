@@ -63,7 +63,7 @@ class LandingBloc extends Cubit<LandingState> {
                     actions: [
                       ElevatedButton(
                           onPressed: () {
-                            if (controller.text == "123") {
+                            if (controller.text == "020709") {
                               context.router.pop();
                               context.router.push(HomeWrapperRoute());
                               return;
@@ -74,8 +74,7 @@ class LandingBloc extends Cubit<LandingState> {
                           },
                           child: Text("Xác nhận"))
                     ],
-                    title:
-                        Text('Phải pé iu của levi hong?\nNhập mã anh đưa nho'),
+                    title: Text('Phải pé iu của levi hong?\nMã gồm 6 số í'),
                     content: Container(
                       child: TextField(
                         controller: controller,
